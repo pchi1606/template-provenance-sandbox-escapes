@@ -1,0 +1,5 @@
+{
+  "vulnerable_merge_resolved_template_is_attacker_controlled": true,
+  "vulnerable_merge_resolved_template_head": "{% for x in range(10**9) %}{{ x }}{% endfor %}",
+  "fixed_merge_outcome": "BLOCKED: Found unexpected chat template kwargs from request: {'chat_template'}"
+}
